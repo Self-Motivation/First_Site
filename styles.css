@@ -5,4 +5,13 @@ h1 {
 
 p {
     color: red;
+    
 }
+
+#shape
+{
+  boarder = 20px
+  background_colour = grey
+  
+}
+
