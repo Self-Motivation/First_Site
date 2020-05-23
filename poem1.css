@@ -24,7 +24,9 @@ body {
 
 .header {
   background-image: url('candles_poem1.jpg');
-  background-size: cover;
+
+  background-attachment: fixed;
+  background-size: 100%;
   background-position: center;
   position: relative;
 }
@@ -43,7 +45,8 @@ body {
 .description{
 	left: 50%;
 	position: absolute;
-	top: 50%;
+	top:65%;
+	font-size: 13px;
 	transform: translate(-50%, -55%);
 	text-align: center;
 
@@ -57,7 +60,8 @@ body {
 
 
 .description p{
-	color: #fff;
-	font-size: 1.3rem;
+	
+	font-size: 1rem;
 	line-height: 1.5;
+	color: green;
 }
