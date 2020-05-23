@@ -1,8 +1,6 @@
-body {
-  padding: 0;
-  margin: 0;
-  background: #f2f6e9;
-}
+
+
+
 /*--- navigation bar ---*/
 .navbar {
   background:#6ab446;
@@ -22,32 +20,17 @@ body {
   justify-content: flex-end;
 }
 
-.header {
-  background-image: url('candles_poem1.jpg');
 
-  background-attachment: fixed;
-  background-size: 100%;
-  background-position: center;
-  position: relative;
-}
-
-.overlay{
-	position: absolute;
-	min-height: 100%;
-	min-width: 100%;
-	left: 0;
-	top: 0;
-	background: rgb(0,0,0,0.5);
-	z-index: 2;
-
+body{
+	background-color: black;
+	font : 100% Courier New;
+	margin: 20px;
 }
 
 .description{
-	left: 50%;
-	position: absolute;
-	top:65%;
+	position: relative;
+	top: 100%;
 	font-size: 13px;
-	transform: translate(-50%, -55%);
 	text-align: center;
 
 }
