@@ -1,11 +1,8 @@
 
-body
-{
+body{
+	background-color: pink;
 	font : 100% Courier New;
-	color : white;
 	margin: 20px;
-	line-height: 26px;
-	background-color: #000000;
 }
 
 /*--- navigation bar ---*/
@@ -26,3 +23,5 @@ body
 .navbar-collapse {
   justify-content: flex-end;
 }
+
+
